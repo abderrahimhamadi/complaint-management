@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Complaints</title>
+    <style>
+        body {
+            background-color: #fff;
+            margin: 0;
+        }
+
+        .TrackComplaints {
+            position: absolute;
+            top: 0px;
+            left: 20px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 35px;
+            padding: 16px;
+            background-color: #6379FF;
+            border-radius: 0px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            font-weight: regular;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 5px;
+            right: 20px;
+        }
+
+        .button-container a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: regular;
+            font-size: 20px;
+            padding: 16px;
+            background-color: #6379FF;
+            border-radius: 0px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .Content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .ComplaintTable {
+            width: 600px;
+            margin-top: 200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        
+
+        .ComplaintTable {
+            background-color: #fff;
+
+            width: 600px; /* Adjust the width as per your requirement */
+            margin-top: 200px; /* Adjust the top margin to center the table vertically */
+            display: flex;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            justify-content: center;
+            flex-direction:column;
+
+        }
+
+        .ComplaintRow {
+                        padding: 10px;
+            background-color: #f2f2f2;
+            border-radius: 8px;
+            margin-bottom: 10px; /* Add margin to separate the complaint rows */
+            display: flex;
+            justify-content: flex-start; /* Change to flex-start to display rows under each other */
+            align-items: center;
+
+        }
+
+        .ComplaintName
+        {flex: 1;
+            text-align: center;
+            
+        }
+        .ComplaintDate
+        {flex: 1;
+            text-align: center;
+            
+        }
+        .ComplaintStatus {
+            flex: 1;
+            text-align: center;
+             padding: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 30px;
+            background-color: green;
+            color: #FAFAFA;
+        }
+         .ComplaintStatus[data-status="resolved"] {
+            background-color: green;
+        }
+
+        .ComplaintStatus[data-status="cancelled"] {
+            background-color: red;
+        }
+
+        .ComplaintStatus[data-status="ongoing"] {
+            background-color: purple;
+        }
+                .ImageAndOrnaments {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0) 44%, rgba(255, 255, 255, 0) 100%);
+        }
+        .Ornament54 {
+            width: 481px;
+            height: 481px;
+            left: 1280px;
+            top: 510px;
+            position: absolute;
+            border: 50px #6379FF solid;
+            border-radius: 50%;
+
+        }
+
+        .Ornament53 {
+            width: 90px;
+            height: 90px;
+            left: -70px;
+            top: 172px;
+            position: absolute;
+            border: 15px #D9D9D9 solid;
+            border-radius: 50%;
+        }
+
+        .Ornament2 {
+            width: 308px;
+            height: 308px;
+            left: -150px;
+            top: 510px;
+            position: absolute;
+            border: 40px #90ACF5 solid;
+            border-radius: 50%;
+        }
+
+        .Ornament55 {
+            width: 66px;
+            height: 66px;
+            left: 1299px;
+            top: 150px;
+            position: absolute;
+            border: 10px #90ACF5 solid;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="Cover">
+        <div class="PluginFileCover2">
+            <!-- Your existing content here -->
+        </div>
+        <div class="Container">
+            <div class="Content">
+                <div class="TrackComplaints">Track Complaints</div>
+                <div class="button-container">
+                    <a href="track_filecp.html">Home</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="frontpage.html">Log Out</a>
+                </div>
+                <div class="ComplaintTable">
+                    <div class="ComplaintRow">
+                        <div class="ComplaintName">Water Leak</div>
+                        <div class="ComplaintDate">2023-11-20</div>
+                        <div class="ComplaintStatus" data-status="ongoing">Ongoing</div>
+                    </div>
+                    <div class="ComplaintRow">
+                        <div class="ComplaintName">Broken Light</div>
+                        <div class="ComplaintDate">2023-11-19</div>
+                        <div class="ComplaintStatus" data-status="cancelled">Cancelled</div>
+                    </div>
+                    <div class="ComplaintRow">
+                        <div class="ComplaintName">Water Leak</div>
+                        <div class="ComplaintDate">2023-11-20</div>
+                        <div class="ComplaintStatus" data-status="resolved">Resolved</div>
+                    </div>
+                
+        </div>
+                <div class="Ornament53"></div>
+                <div class="Ornament54"></div>
+                <div class="Ornament2"></div>
+            </div>
+    </div>
+</body>
+</html>

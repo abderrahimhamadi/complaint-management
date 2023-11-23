@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 95vh;
+            overflow: hidden;
+            position: relative; /* Ensure the ornaments are positioned relative to the body */
+        }
+
+        .ImageAndOrnaments {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0) 44%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        .Ornament54 {
+            width: 481px;
+            height: 481px;
+            left: 1280px;
+            top: 510px;
+            position: absolute;
+            border: 50px #6379FF solid;
+            border-radius: 50%;
+        }
+
+        .Ornament53 {
+            width: 90px;
+            height: 90px;
+            left: -70px;
+            top: 172px;
+            position: absolute;
+            border: 15px #D9D9D9 solid;
+            border-radius: 50%;
+        }
+
+        .Ornament2 {
+            width: 308px;
+            height: 308px;
+            left: -150px;
+            top: 510px;
+            position: absolute;
+            border: 40px #90ACF5 solid;
+            border-radius: 50%;
+        }
+
+        .Ornament55 {
+            width: 66px;
+            height: 66px;
+            left: 1299px;
+            top: 150px;
+            position: absolute;
+            border: 10px #90ACF5 solid;
+            border-radius: 50%;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            display: flex;
+        }
+
+        .button-container a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: regular;
+            font-size: 20px;
+            padding: 16px;
+            background-color: #6379FF;
+            border-radius: 0px;
+            border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+        }
+
+        .center-buttons {
+            text-align: center;
+        }
+
+        .center-buttons button {
+            background-color: #6379FF;
+            color: #fff;
+            padding: 28px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 30px;
+            margin: -0 60px; /* Added margin between the buttons */
+        }
+
+        .center-buttons button:hover {
+            background-color: #6379FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="ImageAndOrnaments">
+        <div class="Ornament54"></div>
+        <div class="Ornament53"></div>
+        <div class="Ornament2"></div>
+        <div class="Ornament55"></div>
+    </div>
+
+    <div class="button-container">
+        <a href="track_filecp.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="frontpage.html">Log Out</a>
+    </div>
+
+    <div class="center-buttons">
+        <button onclick="location.href='track-student.html'">Track Complaints</button>
+
+        <button onclick="location.href='filecomplaint.html'">File Complaints</button>
+    </div>
+
+</body>
+</html>

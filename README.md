@@ -1,4 +1,4 @@
-# complaint-management
+# RoomComplaintsManager
 Bienvenue dans le référentiel GitHub du projet de site Web basé sur Spring Boot dédié à la gestion des plaintes des étudiants de notre école INPT concernant leurs chambres dans les résidences universitaires. Ce projet vise à simplifier et accélérer le processus de dépôt de plaintes et à résoudre les problèmes rencontrés dans les dortoirs.
 
 ## Description du Projet
